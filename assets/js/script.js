@@ -193,9 +193,9 @@ function createCityList(citySearchList) {
   });
 
    //on clicking clear city button, it clears the localstorage and cities array and the rendering Div
-//    $(document).on("click", ".clearcities", function () {
-//     localStorage.clear();
-//     listDiv.empty();
-//     citySearchList = 0;
-//     $(".forecast-weather").hide();
-// });
+   $(document).on("click", ".clearcities", function () {
+    localStorage.clear();
+    listDiv.empty();
+    citySearchList = 0;
+    $(".forecast-weather").hide();
+});
